@@ -2,7 +2,7 @@ function pegarDados() {
   document.querySelector(".esconder").style.display = "block";
 
   let camText = document.getElementById("texto").value;
-  document.getElementById("camText").innerHTML = "Texto: " + camText;
+  document.getElementById("camText").innerHTML = "Nome: " + camText;
   let camFone = document.getElementById("fone").value;
   document.getElementById("camFone").innerHTML = "Telefone: " + camFone;
   let camEmail = document.getElementById("email").value;
